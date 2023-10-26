@@ -17,7 +17,6 @@
                     throw new ArgumentException("Some error message", nameof(myList));
             }
 
-
             var numbers = new int[] { 10, 20, 30 };
             Console.WriteLine(GetSourceLabel(numbers));  // output: 1
 
@@ -30,9 +29,6 @@
                 ICollection<T> collection => 2,
                 _ => 3,
             };
-
-
-            
         }
     }
 }
